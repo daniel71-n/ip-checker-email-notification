@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 
 ip_address="$(ip a | grep -i "inet.*wan.*" | cut -d " " -f 6)"
